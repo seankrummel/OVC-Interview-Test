@@ -24,13 +24,15 @@ class App extends React.Component<Props> {
     ));
     return (
       <table>
-        <tr>
-          <th>Name</th>
-          <th>Email</th>
-          <th>City</th>
-          <th>Company</th>
-        </tr>
-        {rows}
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Company</th>
+          </tr>
+          {rows}
+        </tbody>
       </table>
     );
   }
