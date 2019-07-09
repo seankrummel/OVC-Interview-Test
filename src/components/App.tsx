@@ -1,9 +1,7 @@
 import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-import {User, Store} from './types';
+import {User, Store} from '../types';
 import {connect} from 'react-redux';
-import {fetchData} from './actions';
+import {fetchData} from '../actions';
 
 interface Props {
   users: Array<User>;
